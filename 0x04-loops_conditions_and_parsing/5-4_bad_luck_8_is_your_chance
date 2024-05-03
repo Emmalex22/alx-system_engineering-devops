@@ -17,4 +17,5 @@ do
 	else
 		echo "Best School"
 	if
+	(( i++ ))
 done

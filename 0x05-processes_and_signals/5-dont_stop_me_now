@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 # This Bash script stops 4-to_infinity_and_beyond process
 
 #get the pid of the prcess first

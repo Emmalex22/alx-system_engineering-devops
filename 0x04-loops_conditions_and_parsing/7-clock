@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script displys hour fro 0 to 12
+# and minutes from 0 to 59
+
+hour=1
+
+while [ $hour -le 12 ]
+do
+	echo "hour: $hour"
+	minute=1
+	while [ $munute -le 59 ]
+	do
+		echo "$minute"
+		((minute++))
+	done
+	((hour++))
+done
